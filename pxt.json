@@ -1,0 +1,26 @@
+{
+    "name": "Little-Stone",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "sanshi-microbitkit": "github:kightl/Little-Stone#f11a3b2a278b42df03da0e33529ccfc9e1da2dcd"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.21",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
